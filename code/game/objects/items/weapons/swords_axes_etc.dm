@@ -2,10 +2,10 @@
 /obj/item/weapon/melee
 	edge = FALSE
 	sharp = FALSE
-        var/force_multiplier = 1.2
-        var/force_divisor = 3
+	var/force_multiplier = 1.2
+	var/force_divisor = 3
 	var/weakens = 0
-        var/weaken_chance = 40
+	var/weaken_chance = 40
 
 /obj/item/weapon/melee/mace
 	name = "iron mace"
@@ -200,8 +200,9 @@
 	item_state = "big_club"
 	force = WEAPON_FORCE_PAINFUL
 	weakens = 2
-        force_multiplier = 2.5
-        force_divisor = 1.5
+	force_multiplier = 2.5
+	force_divisor = 1.5
+	weaken_chance = 100
 
 /*
 /obj/item/weapon/melee/classic_baton/big_club/attack(mob/M as mob, mob/living/user as mob)
